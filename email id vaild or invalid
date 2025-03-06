@@ -1,0 +1,33 @@
+email id vaild or invalid using string in java 
+
+package day3;
+
+
+import java.util.Scanner;
+
+public class Minmax {    
+	public static void main (String []args) {
+		Scanner s=new Scanner(System.in );
+		System.out.println("enter the string :");
+		String s1=s.nextLine();
+		
+		//String s2=s.nextLine();
+		if(s1.contains("com") || s1.contains("org") || s1.contains("outlook")) {
+			
+		
+			System.out.println("valid email");
+		}
+		else {
+			System.out.println("invalid email");
+		}
+	}
+}
+
+output
+enter the string :
+vetriventhan2004@gamil.com
+valid email
+
+
+
+
