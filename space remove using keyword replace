@@ -1,0 +1,25 @@
+space remove using keyword replace in java
+package day3;
+
+
+import java.util.Scanner;
+
+public class Minmax {    
+	public static void main (String []args) {
+		Scanner s=new Scanner(System.in );
+		System.out.println("enter the string :");
+		String str=s.nextLine();
+		String d=str.replace(" ","");
+		
+		
+		
+		
+			System.out.println(d);
+		}
+	}
+
+output
+enter the string :
+vetri vethan 
+vetrivethan
+
