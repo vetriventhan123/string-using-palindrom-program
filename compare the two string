@@ -1,0 +1,24 @@
+compare the two string to find the diffence using java 
+
+package day3;
+
+
+import java.util.Scanner;
+
+public class Minmax {    
+	public static void main (String []args) {
+		Scanner s=new Scanner(System.in );
+		System.out.println("enter the string :");
+		String s1=s.nextLine();
+		String s2=s.nextLine();
+			System.out.println(s1.compareTo(s2));
+		}
+	}
+
+output
+
+enter the string :
+vetri
+shreya
+3
+
